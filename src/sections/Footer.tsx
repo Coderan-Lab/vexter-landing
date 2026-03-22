@@ -1,0 +1,31 @@
+import VexterLogo from "@/assets/vexter-logo.svg";
+import SocialX from "@/assets/social-x.svg";
+import SocialInsta from "@/assets/social-insta.svg";
+import SocialLinkedIn from "@/assets/social-linkedin.svg";
+import Link from "next/link";
+
+export const Footer = () => {
+  return (
+    <footer className="bg-black text-[#BCBCBC] text-sm py-10 text-center">
+      <div className="container">
+        <div className="inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:w-full before:blur before:bg-[linear-gradient(to_right,#f87bff,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] before:absolute">
+          <VexterLogo className="h-10 w-auto relative" />
+        </div>
+        <nav className="flex flex-col md:flex-row md:justify-center gap-6 mt-6">
+          <Link href="">Producto</Link>
+          <Link href="">Características</Link>
+          <Link href="">Clientes</Link>
+          <Link href="">Precios</Link>
+          <Link href="">Ayuda</Link>
+          <Link href="">Blog</Link>
+        </nav>
+        <div className="flex justify-center gap-6 mt-6">
+          <SocialX />
+          <SocialInsta />
+          <SocialLinkedIn />
+        </div>
+        <p className="mt-6">&copy; 2025 Vexter, Inc. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  );
+};

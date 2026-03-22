@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" fill="none">
+  <!-- Shield icon -->
+  <path d="M12 4 L20 7 L20 16 Q20 21 12 24 Q4 21 4 16 L4 7 Z" fill="#183ec2" />
+  <path d="M9 14 L11.5 17 L16 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Vexter text -->
+  <text x="28" y="28" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#0a0a0a" letter-spacing="-0.5">Vexter</text>
+</svg>
