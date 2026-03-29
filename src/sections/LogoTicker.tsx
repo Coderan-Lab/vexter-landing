@@ -1,11 +1,7 @@
 "use client";
 
-import acmeLogo from "@/assets/logo-acme.png";
-import quantumLogo from "@/assets/logo-quantum.png";
-import echoLogo from "@/assets/logo-echo.png";
-import celestialLogo from "@/assets/logo-celestial.png";
-import pulseLogo from "@/assets/logo-pulse.png";
-import apexLogo from "@/assets/logo-apex.png";
+import megavoipLogo from "@/assets/logos/megavoip-logo-color.jpg";
+import arquitecturaLogo from "@/assets/logos/EAU-gray-scale.jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -15,78 +11,38 @@ export const LogoTicker = () => {
       <div className="container">
         <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
           <motion.div
-            className="flex gap-14 flex-none pr-14"
+            className="flex gap-24 flex-none pr-24 items-center"
             animate={{
               translateX: "-50%",
             }}
             transition={{
-              duration: 20,
+              duration: 12,
               repeat: Infinity,
               ease: "linear",
               repeatType: "loop",
             }}
           >
             <Image
-              src={acmeLogo}
-              alt="acme Logo"
-              className="logo-ticker-image"
+              src={megavoipLogo}
+              alt="MegaVoip Logo"
+              className="logo-ticker-image grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
             />
             <Image
-              src={quantumLogo}
-              alt="quantum Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={echoLogo}
-              alt="echo Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={celestialLogo}
-              alt="celestial Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={pulseLogo}
-              alt="pulse Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={apexLogo}
-              alt="apex Logo"
-              className="logo-ticker-image"
+              src={arquitecturaLogo}
+              alt="Estudio de Arquitectura y Urbanismo Logo"
+              className="logo-ticker-image grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
             />
 
-            {/* second set of logos for animation */}
+            {/* second set of logos for seamless loop animation */}
             <Image
-              src={acmeLogo}
-              alt="acme Logo"
-              className="logo-ticker-image"
+              src={megavoipLogo}
+              alt="MegaVoip Logo"
+              className="logo-ticker-image grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
             />
             <Image
-              src={quantumLogo}
-              alt="quantum Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={echoLogo}
-              alt="echo Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={celestialLogo}
-              alt="celestial Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={pulseLogo}
-              alt="pulse Logo"
-              className="logo-ticker-image"
-            />
-            <Image
-              src={apexLogo}
-              alt="apex Logo"
-              className="logo-ticker-image"
+              src={arquitecturaLogo}
+              alt="Estudio de Arquitectura y Urbanismo Logo"
+              className="logo-ticker-image grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
             />
           </motion.div>
         </div>

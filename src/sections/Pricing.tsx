@@ -1,6 +1,6 @@
 "use client"
 
-import CheckIcon from "@/assets/check.svg";
+import CheckIcon from "@/assets/icons/check.svg";
 import { twMerge } from "tailwind-merge";
 import {motion} from "framer-motion";
 
@@ -118,14 +118,17 @@ export const Pricing = () => {
                     /mes
                   </span>
                 </div>
-                <button
+                <a
+                  href={`https://wa.me/573124577909?text=Hola%2C%20me%20interesa%20el%20plan%20${title}%20de%20Vexter`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={twMerge(
                     "btn btn-primary w-full mt-[30px]",
                     inverse === true && "bg-white text-black"
                   )}
                 >
                   {buttonText}
-                </button>
+                </a>
                 <ul className="flex flex-col gap-5 mt-8">
                   {features.map((feature) => (
                     <li
