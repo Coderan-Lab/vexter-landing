@@ -1,8 +1,8 @@
 "use client";
 
-import ArrowRight from "@/assets/arrow-right.svg";
-import starImage from "@/assets/star.png";
-import springImage from "@/assets/spring.png";
+import ArrowRight from "@/assets/icons/arrow-right.svg";
+import starImage from "@/assets/decorations/star.png";
+import springImage from "@/assets/decorations/spring.png";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
@@ -45,11 +45,23 @@ const sectionRef = useRef(null);
           />
         </div>
         <div className="flex gap-2 mt-10 justify-center">
-          <button className="btn btn-primary">Solicitar demo</button>
-          <button className="btn btn-text gap-1">
+          <a
+            href="https://wa.me/573124577909?text=Hola%2C%20quiero%20solicitar%20un%20demo%20de%20Vexter"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+          >
+            Solicitar demo
+          </a>
+          <a
+            href="https://wa.me/573124577909?text=Hola%2C%20me%20gustaría%20ver%20cómo%20funciona%20Vexter"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-text gap-1"
+          >
             <span>Ver cómo funciona</span>
             <ArrowRight className="h-5 w-5" />
-          </button>
+          </a>
         </div>
       </div>
     </section>

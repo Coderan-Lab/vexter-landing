@@ -1,7 +1,7 @@
-import VexterLogo from "@/assets/vexter-logo.svg";
-import SocialX from "@/assets/social-x.svg";
-import SocialInsta from "@/assets/social-insta.svg";
-import SocialLinkedIn from "@/assets/social-linkedin.svg";
+import VexterLogo from "@/assets/logos/vexter-logo.svg";
+import SocialX from "@/assets/social/social-x.svg";
+import SocialInsta from "@/assets/social/social-insta.svg";
+import SocialLinkedIn from "@/assets/social/social-linkedin.svg";
 import Link from "next/link";
 
 export const Footer = () => {
